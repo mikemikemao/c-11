@@ -196,11 +196,6 @@ namespace testLeetCode{
         cout << "       (11)hash_multiset (12)hash_multimap (13)set (14)map (15)unordered_set \n";
         cout << "       (16)unordered_map (17)stack (18)queue \n";	
         cout << " (2),(3),(5),(6),(8) will test also moveable elements. \n"; 
-        cin >> choice;
-        if ( choice != 1 ) { 	//1 ==> array, use ASIZE
-            cout << "how many elements: ";
-            cin >> value; 		
-        }
         switch (choice) 
         {
             case 1 : two_sum::test();		
